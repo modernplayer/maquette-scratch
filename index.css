@@ -1,0 +1,138 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+h1{
+  padding-top:100px;
+  font-size:70px;
+}
+h2{
+ font-size:56px;
+ font-weight:lighter;
+}
+h1, h2, .logo{
+  font-family: 'Raleway', sans-serif;
+}
+.logo{
+  font-size:18px;
+  font-weight:bold;
+}
+header, footer, h3, p, button{
+  font-family: 'Arial', sans-serif;
+}
+header, footer{
+  background-color:#3480be;
+  color:#ffffff;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:30px;
+  padding-left:60px;
+  padding-right:60px;
+}
+footer{
+  text-align:center;
+  padding:30px;
+}
+body{
+  background-image:url("https://imgur.com/4jTxsAc.png");
+  background-repeat: repeat-x;
+  /*background-color:#f5f5f5;*/
+}
+h1, h2, .bleu{
+  color:#235680;
+}
+h3, .gris{
+  color:#333333;
+}
+h3{
+  font-size:28px;
+}
+p{
+  font-size:20px;
+}
+.centre, .bleu{
+  text-align:center;
+}
+.bleu{
+  font-style: italic;
+  display: flex;
+  width:900px;
+  margin:auto;
+  padding:30px;
+  font-size:22px;
+}
+.savoir, .contact{
+  border:2px solid #5a9deb;
+  font-size:12px;
+  padding: 8px 28px;
+  border-radius:5px;
+  margin:8px
+}
+.savoir{
+  background-color:#FFFFFF;
+  color:#5a9deb
+}
+.savoir:hover{
+  background-color:#5a9deb;
+  color:#FFFFFF;
+}
+.contact{
+  background-color:#5a9deb;
+  color:#FFFFFF;
+}
+.contact:hover{
+  background-color:#FFFFFF;
+  color:#5a9deb
+}
+.client{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  max-width:1180px;
+  padding:40px;
+}
+.colonne{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+.blocgris{
+  display:flex;
+  margin-left:60px;
+}
+.blocgris > .colonne{
+  flex:1;
+}
+.bouton{
+  display:flex;
+  justify-content:center;
+  padding-bottom:20px;
+}
+.titreblocgris{
+  margin-left:58px;
+  padding-bottom:20px;
+}
+.boutonbas{
+  padding-top:15px;
+}
+.fondgris{
+  background-color:#f5f5f5;
+  padding:50px;
+}
+hr{
+  width: 130px;
+  height: 2px;
+  background-color: #3480be;
+  border:none;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+.navigation{
+  margin-left:15px;
+  border:none;
+  background-color:#3480be;
+  color:#ffffff;
+  font-size:16px;
+}
